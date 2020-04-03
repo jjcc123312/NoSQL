@@ -645,7 +645,9 @@ SortedSet(Zset)是Redis提供的一个非常特别的数据结构，一方面它
 ​	语法: zremrangebyscore  zset集合  minScore  maxScore
 
 ```sh
-`127.0.0.1:6379> zadd scoreboard 84 zhangsan(integer) 1127.0.0.1:6379> ZREMRANGEBYSCORE scoreboard 80 100(integer) 1`
+127.0.0.1:6379> zadd scoreboard 84 zhangsan(integer) 
+1127.0.0.1:6379> ZREMRANGEBYSCORE scoreboard 80 100
+(integer) 1
 ```
 
 ### 5.7, zrange 
